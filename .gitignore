@@ -161,3 +161,4 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 >>>>>>> 1bdde2c4524241de0f0976455ee551a7d5cbd8ec
+.vercel
