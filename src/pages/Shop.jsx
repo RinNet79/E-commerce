@@ -1,3 +1,14 @@
+import NewProducts from "../components/NewPro";
+import PopularProduct from "../components/PopularProduct"
+import StockProduct from "../components/StockProduct"
+import Footer from "../components/Footer"
 export default function Shop() {
-  return <h1 className="p-10 text-2xl">Shop Page</h1>;
+  return(
+    <div>
+      <NewProducts/>
+      <PopularProduct/>
+      <StockProduct/>
+      <Footer/>
+    </div>
+  );
 }

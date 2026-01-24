@@ -1,3 +1,10 @@
+import NewProducts from "../components/NewPro";
+import Footer from "../components/Footer";
 export default function NewPage() {
-  return <h1 className="p-10 text-2xl">New Products</h1>;
+  return (
+    <div>
+      <NewProducts/>
+      <Footer/>
+    </div>
+  );
 }

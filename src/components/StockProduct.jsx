@@ -183,8 +183,8 @@ const StockProduct = () => {
 
         {/* Load More Button - Centered */}
         <div className="text-center mt-10">
-          <button className="border border-gray-300 text-gray-700 px-8 py-3 font-medium rounded-sm hover:bg-gray-100 transition-colors duration-300">
-            Load More Products
+          <button className="border border-black text-black px-10 py-3 font-medium tracking-wide hover:bg-black hover:text-white transition-all duration-300">
+            Load More Data
           </button>
         </div>
 
